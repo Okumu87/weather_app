@@ -56,6 +56,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     weatherInfo.classList.remove("hidden");
     errorMessage.classList.add("hidden");
+
+    //display
     temperatureDisplay.textContent = `Temperature: ${main.temp}`;
     descriptionDisplay.textContent = `Weather: ${weather[0].description}`;
   }
